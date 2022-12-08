@@ -31,7 +31,7 @@
 <div class="container">
     <div class="container-time">
         <h2 class="heading">Öppettider</h2>
-        <h3 class="heading-days">måndag-fredag</h3>
+        <h3 class="heading-dagar">måndag-fredag</h3>
         <p>07:00 - 21:00 (frukost ingår)</p>
         <p>13:00 - 23:00 (lunch/middag kan köpas i caffé)</p>
 
@@ -43,7 +43,8 @@
 
         <h4 class="heading-phone"> Ring Oss: 0765X-X2-3XX</h4>
 </div>
-</div class="container-form">
+
+<div class="container-form">
 <form onSubmit="">
     <h2 class="heading heading-yellow"> Bokning Online</h2>
 
@@ -60,12 +61,17 @@
     <input type="date" />
     </div>
     <div class="form-field">
-    <p> Ditt namn</p>
-    <input type="text" placeholder="Ditt Namn" />
-    </div>
-    <div class="form-field">
-    <p> Ditt namn</p>
-    <input type="text" placeholder="Ditt Namn" />
+    <p> Hur många personer</p>
+    <select name="välj" id="#">
+        <option value="1">1 person</option>
+        <option value="2">2 personer</option>
+        <option value="3">3 personer</option>
+        <option value="4">4 personer</option>
+        <option value="5">5 personer</option>
+        <option value="6">6 personer</option>
+        <option value="7">7 personer</option>
+        <option value="8+">8+ personer</option>
+    </select>
     </div>
     <input type="submit" value="Boka" />
 </form>
